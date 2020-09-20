@@ -1,0 +1,78 @@
+/* variable color */
+/*setting */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato";
+  font-weight: 300;
+  color: black;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 203rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 171rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  padding: 2rem 1.5rem;
+  margin: 0;
+}
+
+/*  global classes  */
+button, button:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn__submit {
+  border: none;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  font-weight: 400;
+}
+
+.btn__submit:hover {
+  background-color: #053e50;
+}
+
+input {
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=setting.css.map */
